@@ -11,47 +11,47 @@
 function renderAboutMe() {
     print('┌─────────────────────────── ABOUT ───────────────────────────┐', '');
     print('│ Name: <span class="accent">Quang Bui</span>                                             │', '');
-    print('│ Role: <span class="accent">Builder, learner, and product-minded engineer</span>         │', '');
-    print('│ Location: <span class="accent">Ho Chi Minh City, Vietnam</span>                         │', '');
+    print('│ Role: <span class="accent">Curious builder and learner</span>                           │', '');
+    print('│ Location: <span class="accent">Vienna, Austria          </span>                         │', '');
     print('└─────────────────────────────────────────────────────────────┘', '');
 
     printBranch('Information', [
         {
         name: 'Strengths',
         descriptions: [
-            'Systems thinking — break big goals into clear steps',
-            'Calm execution — focus on signal, not noise',
-            'Communication — write concise docs and runnable examples'
+            'Logical reasoning — able to think through problems with <span class="yellow">accuracy and ease</span>',
+            'Calmness — <span class="yellow">never overwhelmed</span> by heavy task difficult or load (I take it as a challenge)',
+            'Communication — communicate with team effectively to produce the <span class="yellow">best possible outcome</span>'
         ]
         },
         {
         name: 'Techstack',
         descriptions: [
-            'Frontend: HTML/CSS/JS (TypeScript), React',
-            'Backend: Node.js, Python (FastAPI)',
-            'Tools: Git, Docker, Jira/Confluence, CI/CD'
+            'Language: <span class="yellow">HTML, CSS, JavaScript, TypeScript, React, Python, and Java</span>',
+            'Tools: <span class="yellow">Git, PyTorch, TensorFlow, Jira/Confluence</span>',
+            'Creativity: <span class="yellow">Figma, Canva</span>'
         ]
         },
         {
         name: 'Interests',
         descriptions: [
-            'Human-friendly UX for technical tools',
-            'Automation and AI assistants for routine work',
-            'Teaching: guides, workshops, internal playbooks'
+            'Creating the <span class="yellow">best possible UI/UX</span> even for a technical product',
+            'Automating life with <span class="yellow">AI agents</span>',
+            '<span class="yellow">Teaching</span> through workshops, lessons, seminars, etc.'
         ]
         },
         {
         name: 'Working Principles',
         descriptions: [
-            'Start small — prove value in one day if possible',
-            'Prefer boring tech that is easy to maintain',
-            'Measure outcomes — remove features that do not help'
+            'MVP first - always prefer a usable product with <span class="yellow">minimum viable features</span> first',
+            'Perfectionist - a single box not aligned and the UI will be <span class="yellow">fixed within seconds</span>',
+            'Logic - decide features to build based on <span class="yellow">what will benefit users, not what will satisfy dev\'s eyes</span>'
         ]
         },
         {
         name: 'Contact',
         descriptions: [
-            'Email: quang@example.com',
+            'Email: quang.gateway@gmail.com',
             'LinkedIn: <a href="https://www.linkedin.com/in/buiducquang/" target="_blank" class="accent">Duc Quang Bui</a>',
             'GitHub: <a href="https://github.com/duckyquang" target="_blank" class="accent">Duck Quang</a>'
         ]
@@ -151,34 +151,32 @@ function handleCommand(input) {
             break;
         case 'proj':
             printBranch('Projects', [
-            { name: 'Rotten', descriptions: [
-                'An AI-based translator for teachers to translate content into brainrot',
-                'Trained the AI model with over 300 brainrot terms and use cases',
+            { name: 'Rotten (2024 - 2025)', descriptions: [
+                'An AI-based translator for teachers to <span class="yellow">translate educational content into brainrot</span>',
+                'Trained the AI model with over <span class="yellow">300 brainrot terms and use cases</span>',
                 'Built it as a part of the <a href="https://docs.google.com/document/d/1bwLQNPkNM9e9gQBsdeFPXFcPsPpu6jjfSB3ueGwxJIs/edit?usp=sharing" target="_blank" class="accent">IB MYP Personal Project</a>'
             ] },
-            { name: 'Huzzlingo', descriptions: [
-                'Duolingo for getting girls (huzz)',
-                'Trained the final boss AI model to challenge users and return a Huzzlingo score',
-                'Built the webapp with '
+            { name: 'Huzzlingo (2025 - Present)', descriptions: [
+                '<span class="yellow">Duolingo for getting girls (huzz)</span>',
+                '<span class="yellow">Trained the final boss AI model</span> to challenge users and return a Huzzlingo score',
+                'Techstack: TypeScript, JSON, JavaScript, CSS, and HTML'
             ] },
-            { name: 'Zyra', descriptions: [
-                'Description #1',
-                'Description #2',
-                'Description #3'
+            { name: 'Zyra (2025 - Present)', descriptions: [
+                '<span class="yellow">To be revealed...</span>',
             ] },
             ]);
             break;
         case 'rs':
             printBranch('Researches', [
             { name: 'Reinforcement Learning-based solution for Traffic Signal Control: An Alternative Rewarding System', descriptions: [
-                'Description #1',
-                'Description #2',
-                'Description #3'
+                'Changing the <span class="yellow">rewarding system of a traffic signal control RL model</span> based on a previous research',
+                'Solo project under the <span class="yellow">mentorship of Thuongmai University\'s AI professor</span>',
+                'Aiming to be published by 2026'
             ] },
             { name: 'Quantum vs. Classical Algorithms: Shortest Path Optimization Problem', descriptions: [
-                'Description #1',
-                'Description #2',
-                'Description #3'
+                'Comparing <span class="yellow">Djikstra\'s algorithm to quantum algorithms</span> with different amount of qubits',
+                'Tech Stack: Python and <span class="yellow">Qiskit (IBM Quantum Coding Language)</span>',
+                'Currently being peer reviewed'
             ] },
             ]);
             break;
@@ -186,50 +184,52 @@ function handleCommand(input) {
             printBranch('Extracurriculars', [
             { name: 'Coding Club President (2024 - Present)', descriptions: [
                 'Planned a 30-lesson curriculum for 30+ members',
-                'Produced alumni with products helping the school community (i.e. <span class="underline">Class Scheduler</span>)',
-                'Taught 20 beginners <span class="underine">Python and Scratch</span> to introduce them to the basics of programming'
+                'Produced alumni with products helping the school community (i.e. <span class="yellow">Class Scheduler</span>)',
+                'Taught 20 beginners <span class="yellow">Python and Scratch</span> to introduce them to the basics of programming'
             ] },
             { name: 'TedX Speaker (2025)', descriptions: [
-                'Topic: "<span class="underline">How can we ethically abuse AI?</span>"',
+                'Topic: "<span class="yellow">How can we ethically abuse AI?</span>"',
                 'Discussed about the uses of AI and how we can utilize it to benefit us',
-                'Encouraged the school board to <span class="underline">allow AI usage</span>'
+                'Encouraged the school board to <span class="yellow">allow AI usage</span>'
             ] },
             { name: 'Basketball Player (2022 - Present)', descriptions: [
                 'Varsity Player - won multiple 3x3 and 5x5 leagues as a starter',
-                'Nationals Player - played at the <span class="underline">national level</span> for the Hanoi Basketball Team',
-                'Basketball Club Coordinator - organized <span class="underline">free basketball summer camps</span> for children and raised awareness about basketball in the community'
+                'Nationals Player - played at the <span class="yellow">national level</span> for the Hanoi Basketball Team',
+                'Basketball Club Coordinator - organized <span class="yellow">free basketball summer camps</span> for children and raised awareness about basketball in the community'
             ] },
             ]);
             break;
         case 'aca':
             printBranch('Academics', [
             { name: 'American International School Viennav (2025 - 2027)', descriptions: [
-                'GPA: 3.8 UW',
+                'GPA: <span class="yellow">3.8 UW</span>',
                 'IB Diploma: N/A',
-                'AP(7): Calculus BC, Microeconomics, Macroeconmics, Physics C: E&M + Mechanics, Statistics, Chemistry'
             ] },
             { name: 'The Dewey Schools (2023 - 2025)', descriptions: [
-                'GPA: 4.67 W',
-                'IB MYP Year 5: 57/63',
-                'AP(3): Precalculus, Physics 1, Computer Science A'
+                'GPA: <span class="yellow">4.67 W</span>',
+                'IB MYP Year 5: <span class="yellow">57/63</span<',
+            ] },
+            { name: 'Rigorous Courses', descriptions: [
+                'AP: Computer Science A (<span class="yellow">5</span>), Precalculus (<span class="yellow">5</span>), Physics 1 (<span class="yellow">4</span>)',
+                'SAT: First one this December',
             ] },
             ]);
             break;
         case 'awards':
             printBranch('Notable Awards', [
             { name: 'Mathematics', descriptions: [
-                'Top 0.5% Contestant, International Kangaroo Mathematics Competition, 2019 - 2024',
-                'Silver Medal, Asian Science and Mathematics Olympiad, 2019 - 2023',
-                'Bronze Medal, Thailand International Mathematics Olympiad, 2022'
+                '<span class="yellow">Top 0.5% Contestant</span>, International Kangaroo Mathematics Competition, 2019 - 2024',
+                '<span class="yellow">Silver Medal</span>, Asian Science and Mathematics Olympiad, 2019 - 2023',
+                '<span class="yellow">Bronze Medal</span>, Thailand International Mathematics Olympiad, 2022'
             ] },
             { name: 'Robotics', descriptions: [
-                'Gold Medal, World Robot Contest Festival International Finals, 2024',
-                'Bronze Medal, Vietnam Robotics Open, 2024'
+                '<span class="yellow">Gold Medal</span>, World Robot Contest Festival International Finals, 2024',
+                '<span class="yellow">Bronze Medal</span>, Vietnam Robotics Open, 2024'
             ] },
             { name: 'Others', descriptions: [
-                'Best Debater, "Should Vietnam use nuclear energy?", 2025',
-                'Outstanding Delegate, Nguyen Sieu Model United Nations, 2024',
-                'Top 3 & Youngest-ever Participant, International Trade Challenge, 2022',
+                '<span class="yellow">Best Debater</span>, "Should Vietnam use nuclear energy?", 2025',
+                '<span class="yellow">Outstanding Delegate</span>, Nguyen Sieu Model United Nations, 2024',
+                '<span class="yellow">Top 3 & Youngest-ever Participant</span>, International Trade Challenge, 2022',
             ] },
             ]);
             break;

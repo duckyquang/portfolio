@@ -143,8 +143,3 @@ body {
 .screen a:hover {
     text-decoration: underline;
 }
-
-.underline {
-    text-decoration: underline;
-    font-weight: bold;
-}
