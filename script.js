@@ -161,6 +161,10 @@ function handleCommand(input) {
                 '<span class="yellow">Trained the final boss AI model</span> to challenge users and return a Huzzlingo score',
                 'Techstack: TypeScript, JSON, JavaScript, CSS, and HTML'
             ] },
+            { name: 'BiPlus Learning (2025)', descriptions: [
+                'Solo-built the <a href="https://learning.biplus.com.vn" target="_blank" class="accent"><span class="yellow">course listing website</span></a> for BiPlus Software Solutions JSC',
+                'Techstack: TypeScript, JSON, Javascript, CSS, and HTML',
+            ] },
             { name: 'Zyra (2025 - Present)', descriptions: [
                 '<span class="yellow">To be revealed...</span>',
             ] },
