@@ -165,17 +165,17 @@ function handleCommand(input) {
                 'Solo-built the <a href="https://learning.biplus.com.vn" target="_blank" class="accent"><span class="yellow">course listing website</span></a> for BiPlus Software Solutions JSC',
                 'Techstack: TypeScript, JSON, Javascript, CSS, and HTML',
             ] },
-            { name: 'Zyra (2025 - Present)', descriptions: [
-                '<span class="yellow">To be revealed...</span>',
+            { name: 'Synthica (2025 - Present)', descriptions: [
+                '<span class="yellow">Making research approachable for all.</span>',
             ] },
             ]);
             break;
         case 'rs':
             printBranch('Researches', [
-            { name: 'Reinforcement Learning-based solution for Traffic Signal Control: An Alternative Rewarding System', descriptions: [
-                'Changing the <span class="yellow">rewarding system of a traffic signal control RL model</span> based on a previous research',
-                'Solo project under the <span class="yellow">mentorship of Thuongmai University\'s AI professor</span>',
-                'Aiming to be published by 2026'
+            { name: 'Solutions for prompt injections in AI browsers', descriptions: [
+                'Investigating on <span class="yellow">prompnt injections in AI browsers</span>',
+                'Proposed the <span class="yellow">Multicmodal Context Firewall (MCF) framework</span> which ensures only harmless context to enter the process',
+                'Aiming to submit to the ICML conference'
             ] },
             { name: 'Quantum vs. Classical Algorithms: Shortest Path Optimization Problem', descriptions: [
                 'Comparing <span class="yellow">Djikstra\'s algorithm to quantum algorithms</span> with different amount of qubits',
@@ -205,7 +205,7 @@ function handleCommand(input) {
             break;
         case 'aca':
             printBranch('Academics', [
-            { name: 'American International School Viennav (2025 - 2027)', descriptions: [
+            { name: 'American International School Vienna (2025 - 2027)', descriptions: [
                 'GPA: <span class="yellow">3.8 UW</span>',
                 'IB Diploma: N/A',
             ] },
